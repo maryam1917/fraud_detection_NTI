@@ -101,9 +101,7 @@ print(confusion_matrix(y_test, y_pred))
 print("\nROC-AUC:", roc_auc_score(y_test, y_prob))
 print("PR-AUC:", average_precision_score(y_test, y_prob))
 
-# =====================================================
-# FEATURE IMPORTANCE
-# =====================================================
+
 # i tried to remove the features with the lowest but it gave me a very bad precision and even the accuracy was lower than 30%
 importance_df = pd.DataFrame({
     "Feature": X.columns,
