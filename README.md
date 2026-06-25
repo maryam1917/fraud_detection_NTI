@@ -230,9 +230,13 @@ Examples of suspicious signals include:
   Example Use Cases
 
    Banking transaction monitoring
+   
    E-commerce payment fraud detection
+   
    Real-time transaction risk scoring
+
    Machine learning portfolio projects
+   
    AI-powered risk analysis demos
 
 ---
