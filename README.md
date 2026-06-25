@@ -223,38 +223,9 @@ Examples of suspicious signals include:
    Low network quality
    First-time transaction
 
-> Note: this explanation is a rule-based helper layer and not a direct model explainability technique such as SHAP.
 
 ---
 
-  How to Run the Project
-
-   1) Clone the repository
-
-```bash
-git clone https://github.com/your-username/fraud-detection.git
-cd fraud-detection
-```
-
-   2) Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-   3) Train the model (optional if model files already exist)
-
-```bash
-python train_model.py
-```
-
-   4) Run the Streamlit app
-
-```bash
-streamlit run app.py
-```
-
----
 
   Example Use Cases
 
@@ -266,28 +237,8 @@ streamlit run app.py
 
 ---
 
-  Notes
 
-   The model depends on the exact feature order stored in `feature_columns.pkl`
-   Categorical features must match the training format used during model development
-   Because fraud detection is an imbalanced classification problem, evaluation should focus on fraud-class performance, not only overall accuracy
-
----
-
-  Future Improvements
-
-Possible future enhancements include:
-
-   Add SHAP explainability for model interpretation
-   Deploy the app using Streamlit Community Cloud
-   Build a richer fraud analytics dashboard
-   Add model monitoring / drift detection
-   Create an API version using FastAPI
-   Store predictions in a database for auditing and analysis
-   Experiment with more advanced feature engineering
-
----
-
+ 
   Author
 
     Maryam Elnwehy    
